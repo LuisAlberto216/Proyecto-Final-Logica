@@ -47,7 +47,6 @@ int main(){
 
     LimpiezaMatrices(disponibilidad,peso,precios);
 
-    //llenado de matrices y operaciones
     for (int x=0;x<numeroPuertos;x++){
         int numeroContenedores=0;
         cout<<"Ingrese el numero de contenedores para el puerto "<<nombresPuertos[x]<<endl;
@@ -91,7 +90,7 @@ int main(){
             }
         }
         porcentaje=(contador*100)/20;
-        cout<<"EL porcentaje de ocupación actual del barco es del "<<porcentaje<<"%"<<endl;
+        cout<<"EL porcentaje de ocupaciÃ³n actual del barco es del "<<porcentaje<<"%"<<endl;
 
         int acumulador=0;
         for(int i=0;i<filas;i++){
